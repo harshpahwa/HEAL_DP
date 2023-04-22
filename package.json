@@ -13,7 +13,10 @@
   "author": "CodingNinjas",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
   }
 }

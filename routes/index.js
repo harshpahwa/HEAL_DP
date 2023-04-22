@@ -8,6 +8,8 @@ console.log('router loaded');
 
 router.get('/', homeController.home);
 router.get('/diagnosis', homeController.diagnosis);
+router.post('/analysis', homeController.analysis);
+router.get('/toggle', homeController.toggle);
 // router.use('/users', require('./users'));
 
 // for any further routes, access from here
